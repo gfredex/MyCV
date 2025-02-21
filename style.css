@@ -1,0 +1,186 @@
+html {
+    scroll-behavior: smooth
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+h1 {
+    font-size: 44px;
+    line-height: 54px;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 44px;
+    color: #fff;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    height: 385px;
+}
+
+.left_colomn {
+    width: 355px;
+    min-width: 355px;
+    background-color: #333333;
+    padding: 10px 30px 10px 50px;
+    text-align: right;
+}
+
+.right_colomn {
+    /* width: 88%; */
+    background-color: #fff;
+    padding: 20px;
+}
+
+.wrap__header {
+    position: relative;
+    margin: 50px 0 50px -335px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 750px;
+    padding: 30px;
+    background-color: #99c7c7;
+    border: 10px solid #fff;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    /* background-image: url(MyAvatar.jpg); */
+    /* background-size: cover; */
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    margin: o auto;
+}
+
+.photo img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.navigation,
+.contact,
+.about_me,
+.education,
+.experience,
+.skills,
+.example_code,
+.languages {
+    display: flex;
+    border-bottom: 3px solid #333333;
+}
+
+ul,
+ol {
+    list-style-position: inside;
+}
+
+.list-menu {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.item-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-menu a:hover {
+    text-decoration: underline;
+}
+
+.title_contact {
+    font-weight: bold;
+    display: inline-block;
+    width: 80px;
+}
+
+.list__courses {
+    padding-left: 25px;
+}
+
+.item__skill {
+    border-bottom: 1px solid #333333;
+    display: flex;
+}
+
+.name__skill {
+    padding: 15px 0 5px 0;
+    width: 195px;
+    min-width: 195px;
+}
+
+.level__skill {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 5px 0;
+}
+
+.point__skill {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #333;
+    border-radius: 50%;
+}
+
+.point__skill.yes {
+    background-color: #333;
+}
+
+.example_code__text {
+    width: 100%;
+    min-width: 100%;
+    background-color: #3f3f3f;
+    color: springgreen;
+    padding: 10px;
+}
+
+.footer {
+    /* height: 90px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    padding: 20px;
+    color: #fff;
+}
+
+.link-github {
+    width: 50px;
+    height: 50px;
+}
+
+.link-rs_school {
+    width: 100px;
+}
+
+.logo-github,
+.logo-rs_school {
+    width: 100%;
+}
