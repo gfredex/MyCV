@@ -123,35 +123,42 @@ ol {
     padding-left: 25px;
 }
 
-.item__skill {
-    border-bottom: 1px solid #333333;
+
+
+.list_experience {
+    list-style-position: outside;
+    margin-left: 15px;
+}
+
+.list_experience>li {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.items__skills {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px
 }
 
 .name__skill {
-    padding: 15px 0 5px 0;
-    width: 195px;
-    min-width: 195px;
+    padding: 7px;
+    width: fit-content;
+    border: 1px solid #3f3f3f;
+    border-radius: 15px;
+    cursor: default;
 }
 
-.level__skill {
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0 5px 0;
+.name__skill.base:hover {
+    background-color: #f2f557;
 }
 
-.point__skill {
-    width: 18px;
-    height: 18px;
-    border: 2px solid #333;
-    border-radius: 50%;
+.name__skill.normal:hover {
+    background-color: aqua;
 }
 
-.point__skill.yes {
-    background-color: #333;
-}
+
 
 .example_code__text {
     width: 100%;
@@ -171,16 +178,42 @@ ol {
     color: #fff;
 }
 
-.link-github {
-    width: 50px;
-    height: 50px;
+#yearCV {
+    font-size: 18px;
 }
 
-.link-rs_school {
-    width: 100px;
+.my-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* width: 50px;
+    height: 50px; */
+}
+
+
+.schools {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-in {
+    background-color: #eeeeee;
+    border-radius: 50%;
+    width: 100%;
 }
 
 .logo-github,
-.logo-rs_school {
-    width: 100%;
+.logo-inno {
+    background-color: #eeeeee;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.logo-github,
+.logo-rs_school,
+.logo-inno,
+.logo-in {
+    height: 60px;
 }
