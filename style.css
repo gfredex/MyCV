@@ -45,6 +45,10 @@ h2 {
     padding: 20px;
 }
 
+.right_colomn.projects {
+    width: 100%;
+}
+
 .wrap__header {
     position: relative;
     margin: 50px 0 50px -335px;
@@ -83,6 +87,7 @@ h2 {
 .experience,
 .skills,
 .example_code,
+.projects,
 .languages {
     display: flex;
     border-bottom: 3px solid #333333;
@@ -158,7 +163,46 @@ ol {
     background-color: aqua;
 }
 
+.list_projects {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
+.link_project {
+    display: block;
+    width: 250px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 7px;
+    transition: all 0.3s
+}
+
+.link_project:hover {
+    background-color: #3f3f3f;
+    color: #fff;
+    overflow: hidden;
+}
+
+.item_project {
+    border: 1px solid #3f3f3f;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.img_project {
+    width: 250px;
+}
+
+.title_project {
+    padding: 10px;
+    font-weight: bold;
+    overflow: hidden;
+}
 
 .example_code__text {
     width: 100%;
