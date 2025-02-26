@@ -22,7 +22,7 @@ h2 {
 }
 
 .wrapper {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -31,7 +31,10 @@ h2 {
     height: 385px;
 }
 
-.left_colomn {
+.right_colomn_head {}
+
+.left_colomn,
+.left_colomn_head {
     width: 355px;
     min-width: 355px;
     background-color: #333333;
@@ -40,7 +43,7 @@ h2 {
 }
 
 .right_colomn {
-    /* width: 88%; */
+    width: 100%;
     background-color: #fff;
     padding: 20px;
 }
@@ -51,11 +54,10 @@ h2 {
 
 .wrap__header {
     position: relative;
-    margin: 50px 0 50px -335px;
+    margin: 50px 0 50px -310px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 750px;
     padding: 30px;
     background-color: #99c7c7;
     border: 10px solid #fff;
@@ -64,20 +66,23 @@ h2 {
 .photo {
     width: 200px;
     height: 200px;
-    /* background-image: url(MyAvatar.jpg); */
-    /* background-size: cover; */
     border-radius: 50%;
     border: 5px solid #fff;
-    margin: 5px;
     display: flex;
     align-items: center;
-    margin: o auto;
+    /* margin: o auto; */
+    margin: 20px;
 }
 
 .photo img {
-    width: 100%;
+    width: 200px;
     overflow: hidden;
     border-radius: 50%;
+}
+
+.text__header {
+    width: fit-content;
+    margin: 20px;
 }
 
 .navigation,
@@ -99,12 +104,11 @@ ol {
 }
 
 .list-menu {
-    height: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     list-style-type: none;
-    gap: 30px;
 }
 
 .item-menu a {
@@ -112,6 +116,9 @@ ol {
     color: #333;
     font-size: 20px;
     font-weight: bold;
+    line-height: 28px;
+    padding: 10px 10px;
+    transition: all 0.3s;
 }
 
 .item-menu a:hover {
