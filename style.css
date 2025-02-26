@@ -31,7 +31,7 @@ h2 {
     height: 385px;
 }
 
-.right_colomn_head {}
+/* .right_colomn_head {} */
 
 .left_colomn,
 .left_colomn_head {
@@ -61,6 +61,7 @@ h2 {
     padding: 30px;
     background-color: #99c7c7;
     border: 10px solid #fff;
+    gap: 20px;
 }
 
 .photo {

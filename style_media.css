@@ -1,0 +1,58 @@
+@media (max-width: 810px) {
+
+    .left_colomn_head,
+    .right_colomn_head {
+        width: 50%;
+        min-width: 0;
+    }
+
+    .wrap__header {
+        margin: 0;
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 15px;
+    }
+
+    .navigation,
+    .contact,
+    .about_me,
+    .education,
+    .experience,
+    .skills,
+    .projects,
+    .languages {
+        flex-direction: column;
+        border-bottom: 0;
+    }
+
+    .navigation {
+        margin-bottom: 2px;
+    }
+
+    .navigation>.left_colomn {
+        display: none;
+    }
+
+    .navigation>.right_colomn {
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+    }
+
+    .item-menu a {
+        color: #fff;
+    }
+
+    .item-menu a:hover {
+        all: unset
+    }
+
+    .left_colomn {
+        width: 100%;
+        min-width: 0;
+        text-align: left;
+        padding: 10px 20px;
+    }
+}
